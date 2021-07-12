@@ -19,5 +19,4 @@ export interface Post {
 
 export interface FbCreateResponse {
   name: string
-
 }

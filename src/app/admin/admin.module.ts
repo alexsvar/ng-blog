@@ -38,7 +38,7 @@ import {AuthGuard} from './shared/services/auth.guard'
     ReactiveFormsModule
   ],
   exports: [RouterModule],
-  providers: [AuthService, AuthGuard]
+  providers: [AuthGuard]
 })
 
 export class AdminModule {
